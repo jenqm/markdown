@@ -1,0 +1,30 @@
+#root {
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  text-align: start;
+  margin: 10px;
+
+}
+
+#editor {
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 20px 0 0 20px;
+  color: rgb(214, 211, 211);
+  font-size: 1.2em;
+  width: auto;
+  /* overflow: hidden; */
+}
+
+#preview{
+  color: rgba(255, 255, 255, 0#941);
+  padding-left: 50px;
+  border-radius: 10px;
+}
